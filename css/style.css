@@ -173,7 +173,7 @@ body{
 
 @media (max-width: 720px) {
     .introducao{
-        margin-top: 0px;
+        margin-top: 4px;
     }
 
     .introducao p{
@@ -189,7 +189,7 @@ body{
     }
 
     .introducao h3{
-        margin-top: 64px;
+        margin-top: 8px;
         font-size: 18px;
     }
 

@@ -175,7 +175,9 @@ body{
 
     body{
         height: 720px;
+        overflow-x: hidden;
     }
+
     .introducao{
         margin-top: 4px;
     }

@@ -149,8 +149,10 @@ body{
         font-size: 64px;
     }
 
-    .introducao h3{
-        font-size: 18px;
+    .introducao .h3{
+        font-size: 64px;
+        font-family: 'Gelasio', serif;
+        color: #f7506b;
     }
 
     .introducao h3{
@@ -191,11 +193,7 @@ body{
         font-size: 32px;
     }
 
-    .introducao .h3{
-        font-size: 64px;
-        font-family: 'Gelasio', serif;
-        color: #f7506b;
-    }
+    
 
     .introducao h3{
         margin-top: 4px;

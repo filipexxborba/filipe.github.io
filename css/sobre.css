@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #181D26;
+    width: 100%;
+}
+
+.sobre-introducao{
+    margin-top: 128px;
+}
+
+.sobre-introducao p, h2{
+    color: #F2EDE9;
+}
+
+.sobre-introducao h2{
+    line-height: 32px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    font-size: 64px;
+    letter-spacing: 3px;
+    margin-bottom: 32px;
+}
+
+.sobre-introducao img{
+    border: 10px solid #2F3240;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.sobre-introducao p{
+    color: #cac5c5;
+    font-family: 'Gelasio', serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 32px;
+}
+
+
+/* Sobre - Histórico */
+.historico{
+    margin-top: 32px;
+}
+.sobre-historico p, h2{
+    color: #F2EDE9;
+}
+
+.sobre-historico h2{
+    line-height: 32px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    font-size: 64px;
+    letter-spacing: 3px;
+    margin-bottom: 32px;
+}
+
+.sobre-historico p{
+
+    color: #cac5c5;
+    font-family: 'Gelasio', serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.sobre-lista li{
+    border: 0.5px solid white;
+    border-radius: 5px;
+    padding: 0px 4px;
+    color: #cac5c5;
+    list-style-type: none;
+    display: inline-block;
+    margin: 16px 35px;
+}
+
+.sobre-lista .li{
+    font-size: 16px;
+    font-family: 'Gelasio', serif;
+    color: #f7506b;
+}
+
+
+/* Certificados */
+
+.certificados h2{
+    line-height: 32px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    font-size: 64px;
+    letter-spacing: 3px;
+    margin: 32px 0px;
+}
+
+.certificados h3{
+    line-height: 32px;
+    box-sizing: border-box;
+    font-family: 'Gelasio', serif;
+    font-size: 24px;
+    color: #cac5c5;
+}
+
+.certificados .cursos{
+    text-align: center;
+}
+
+.certificados .cursos p{
+    font-family: 'Bree Serif', serif;
+    color: #cac5c5;
+}
+
+.certificados .cursos img{
+    margin: 8px 0px;
+    width: 10rem;
+}
+
+.certificados .cursos a{
+    font-weight: bold;
+    color: #cac5c5;
+    text-decoration: none;
+}
+
+.certificados .cursos h4{
+    color: #cac5c5;
+}
+
+.certificados .cursos .a{
+    color: #f7506b;
+    font-size: 16px;
+    font-family: 'Gelasio', serif;
+}
+
+.certificados .cursos a:hover{
+    color: #fff;
+}
+
+.certificados .cursos .fade-in{
+    opacity: 0.5;
+}
+
+.certificados .cursos .fade-in:hover{
+    opacity: 1;
+}
+
+.projetos iframe{
+    width: 100%;
+    height: 800px;
+    opacity: .8;
+    border-radius: 3px;
+    border: 10px solid #2F3240;
+    margin-bottom: 16px;
+}
+
+.projetos iframe:hover{
+    opacity: 1;
+}
+
+.projetos h2{
+    line-height: 32px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    font-size: 64px;
+    letter-spacing: 3px;
+    margin: 32px 0px;
+}
+
+.projetos p{
+    color: #cac5c5;
+    font-family: 'Gelasio', serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    margin: 32px 0px;
+}
+
+.projetos .cta-contato h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.projetos .cta-contato a{
+    font-family: 'Bree Serif', serif;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F2EDE9;
+    background: #f7506b;
+    padding: 10px 128px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    opacity: .8;
+    transition: opacity 0.5s ease-in;
+}
+
+.projetos .cta-contato a:hover{
+    opacity: 1;
+}
+
+@media only screen and (min-width: 788px) and (max-width: 1100px) {
+    .sobre-lista li{
+        margin: 16px 10px;
+    }
+
+    .certificados .cursos a{
+        font-size: 15px;
+    }
+
+    
+    .projetos .cta-contato a{
+        margin-left: 27%;
+    }
+}
+
+@media only screen and (max-width: 787px) {
+    .sobre-introducao{
+        margin-top: 64px;
+    }
+
+    .sobre-introducao img{
+        margin-left: 10%;
+    }
+
+    .sobre-introducao p{
+        text-align: center;
+    }
+
+    .sobre-introducao h2{
+        text-align: center;
+    }
+
+    .sobre-historico h2{
+        font-size: 64px;
+        line-height: 64px;
+    }
+
+    .sobre-historico p{
+        text-align: center;
+    }
+
+    .sobre-lista li{
+        padding: 10px 2px;
+        text-indent: 120px;
+        min-width: 350px;
+        margin-right: 100px;
+    }
+
+    .certificados h2{
+        line-height: 64px;
+    }
+
+    .projetos .cta-contato a{
+        margin-left: 10%;
+    }
+}
+
+[data-anime] {
+    opacity: 0;
+  }
+  .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+  }
+  
+  /* 7 CSS personalizado dependendo da animação desejada */
+  .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+  .fadeInUp {
+    transform: translate3d(0,20px,0);
+  }
+  .fadeInRight {
+    transform: translate3d(20px,0,0);
+  }
+  .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+  }
+
+

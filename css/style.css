@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #181D26;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Introdução */
+.introducao{
+    margin-top: 128px;
+}
+
+.introducao p,h2{
+    color: #F2EDE9;
+}
+
+.introducao p{
+    display: block;
+    font-family: 'Gelasio', serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 64px;
+}
+
+.introducao h2{
+    line-height: 32px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    font-size: 128px;
+    letter-spacing: 3px;
+}
+
+.introducao h3{
+    font-size: 32px;
+    font-family: 'Gelasio', serif;
+    margin-top: 128px;
+    color: #F2EDE9;
+    text-indent: 10px;
+
+    border: 0.5px solid #F2EDE9;
+    border-radius: 5px;
+}
+
+.introducao .h3{
+    font-size: 32px;
+    font-family: 'Gelasio', serif;
+    color: #f7506b;
+}
+
+
+
+.introducao .dot{
+    display: inline-block;
+    padding-left: 1px;
+    font-size: 32px;
+    font-family: 'Gelasio', serif;
+    color: #F2EDE9;
+    text-indent: 10px;
+    animation: dot-opacity 0.5s infinite ;
+}
+
+/* Resenha */
+
+.resenha{
+    margin-top: 32px;
+}
+.resenha p{
+    font-family: 'Gelasio', serif;
+    font-size: 18px;
+    color:#F2EDE9 ;
+    text-align: left;
+}
+
+.resenha .cta-texto{
+    margin-top: 64px;
+    font-family: 'Gelasio', serif;
+    text-align: center;
+    color: #F2EDE9;
+}
+
+.resenha .cta-link{
+    font-family: 'Bree Serif', serif;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F2EDE9;
+    background: #f7506b;
+    padding: 10px 128px;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 8px;
+    opacity: .8;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.resenha .cta-link:hover{
+    opacity: 1;
+}
+
+.resenha .b{
+    font-size: 16px;
+    font-family: 'Gelasio', serif;
+    color: #f7506b;
+}
+
+.resenha b{
+    color: #F2EDE9;
+}
+/* Página sobre mim */
+
+
+
+
+/* Responsivo */
+
+@media only screen and (min-width: 788px) and (max-width: 1100px) {
+    .introducao p{
+        font-size: 32px;
+    }
+
+    .introducao h2{
+        font-size: 64px;
+    }
+
+    .resenha .cta-texto{
+        margin-top: 64px;
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 787px) {
+    .introducao{
+        margin-top: 32px;
+    }
+
+    .introducao p{
+        font-size: 32px;
+    }
+    
+    .introducao h2{
+        font-size: 64px;
+    }
+
+    .introducao h3{
+        font-size: 18px;
+    }
+
+    .introducao h3{
+        margin-top: 64px;
+        font-size: 18px;
+    }
+
+    .introducao .dot{
+        font-size: 18px;
+    }
+
+    .resenha .cta-link{
+    padding: 8px 64px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 8px;
+    }
+
+}
+
+/* Animações */
+@keyframes dot-opacity{
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+/* 6 Adicione o CSS Essêncial abaixo */
+[data-anime] {
+    opacity: 0;
+  }
+  .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+  }
+  
+  /* 7 CSS personalizado dependendo da animação desejada */
+  .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+  .fadeInUp {
+    transform: translate3d(0,20px,0);
+  }
+  .fadeInRight {
+    transform: translate3d(20px,0,0);
+  }
+  .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+  }
+
+
+

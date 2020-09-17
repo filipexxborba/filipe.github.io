@@ -136,7 +136,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 787px) {
+@media only screen and (min-width: 721px) and (max-width: 787px) {
     .introducao{
         margin-top: 32px;
     }
@@ -171,7 +171,7 @@ body{
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 720px) {
     .introducao{
         margin-top: 0px;
     }

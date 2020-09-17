@@ -172,6 +172,10 @@ body{
 }
 
 @media (max-width: 720px) {
+
+    body{
+        height: 720px;
+    }
     .introducao{
         margin-top: 4px;
     }

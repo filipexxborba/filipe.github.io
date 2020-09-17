@@ -171,6 +171,41 @@ body{
 
 }
 
+@media only screen and (max-width: 720px) {
+    .introducao{
+        margin-top: 0px;
+    }
+
+    .introducao p{
+        font-size: 32px;
+    }
+    
+    .introducao h2{
+        font-size: 64px;
+    }
+
+    .introducao h3{
+        font-size: 18px;
+    }
+
+    .introducao h3{
+        margin-top: 64px;
+        font-size: 18px;
+    }
+
+    .introducao .dot{
+        font-size: 18px;
+    }
+
+    .resenha .cta-link{
+    padding: 8px 64px;
+    border-radius: 10px;
+    margin-left: 22%;
+    margin-top: 8px;
+    }
+
+}
+
 /* Animações */
 @keyframes dot-opacity{
     0%{

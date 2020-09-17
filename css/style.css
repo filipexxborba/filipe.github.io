@@ -173,46 +173,6 @@ body{
 
 }
 
-@media (max-width: 720px) {
-
-    body{
-        height: 720px;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
-
-    .introducao{
-        margin-top: 4px;
-    }
-
-    .introducao p{
-        font-size: 16px;
-    }
-    
-    .introducao h2{
-        font-size: 32px;
-    }
-
-    
-
-    .introducao h3{
-        margin-top: 4px;
-        font-size: 8px;
-    }
-
-    .introducao .dot{
-        font-size: 8px;
-    }
-
-    .resenha .cta-link{
-    padding: 8px 64px;
-    border-radius: 10px;
-    margin-left: 22%;
-    margin-top: 8px;
-    }
-
-}
-
 /* Animações */
 @keyframes dot-opacity{
     0%{
